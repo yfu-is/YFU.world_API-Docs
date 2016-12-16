@@ -1,0 +1,3 @@
+# Basics
+
+The **YFU.world API** is a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) JSON API which grants access to resources of YFU.world. The API has predictable, resource-oriented URLs, and uses HTTP response codes to indicate API errors. It uses built-in HTTP features, like HTTP authentication and HTTP verbs, which are understood by off-the-shelf HTTP clients. It supports [cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), allowing you to interact securely with the API from a client-side web application (though you should never expose your secret API key in any public website's client-side code). [JSON](http://www.json.org/) is returned by all API responses, including errors.
